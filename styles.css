@@ -64,24 +64,25 @@ ul li{
     cursor: pointer;
     position: relative;
 }
-ul lis::before{
+ul li::before{ 
     content: '';
     position: absolute;
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(images/unchecked.png);
+    background-image: url(images/unchecked1.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 9px;
     left: 8px;
 }
 ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
+
 ul li.checked::before{
-    background-image: url(images/checked.png);
+    background-image: url(images/checked);
 }
 ul li span{
     position: absolute;
@@ -98,4 +99,4 @@ ul li span{
 
 ul li span:hover{
     background: #edeef0;
-}
+} 
