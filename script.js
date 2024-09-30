@@ -14,4 +14,4 @@
         li.appendChild(span);
     }
     inputBox.value = "";
- }
+ }  
